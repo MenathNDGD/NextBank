@@ -21,12 +21,17 @@ export default async function RootLayout({
 
       <div className="flex flex-col size-full">
         <div className="root-layout">
-          <Image
-            src={"/icons/logo.png"}
-            width={30}
-            height={30}
-            alt="NextBank Menu"
-          />
+          <div className="flex items-center gap-2">
+            <Image
+              src={"/icons/logo.png"}
+              width={30}
+              height={30}
+              alt="NextBank Menu"
+            />
+            <h1 className="ml-0 font-bold text-left text-black-1 text-26 font-ibm-plex-serif">
+              NextBank
+            </h1>
+          </div>
           <div>
             <MobileNav user={loggedIn} />
           </div>
