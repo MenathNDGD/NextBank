@@ -84,7 +84,6 @@ const MobileNav = ({ user }: MobileNavProps) => {
                     </SheetClose>
                   );
                 })}
-                {/* TODO: User data */}
               </nav>
             </SheetClose>
             <Footer user={user} type="mobile" />
